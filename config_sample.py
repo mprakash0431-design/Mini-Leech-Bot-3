@@ -34,7 +34,7 @@ LEECH_THUMBNAIL = ""
 
 
 # BOT SETTINGS 
-BOT_PM = False
+BOT_PM = True
 SET_COMMANDS = True
 TIMEZONE = "Asia/Kolkata"
 
@@ -61,14 +61,14 @@ STORAGE_LIMIT = 100000
 
 
 # VIDEO TOOLS 
-Merge_video_video = false
-Merge_video_audio = false
-Merge_video_subtitle = false
-Hardsub (sudo) = false
-SubSync = false
-Compress_video =false
-Trim_video = false
-Watermarke_video = false
-Remove_video_stream = false
-Extract_video_stream = false
-Convert (1080p, 720p, 540p, 480p, 360p) = false
+MERGE_VIDEO_VIDEO = False
+MERGE_VIDEO_AUDIO = False
+MERGE_VIDEO_SUBTITLE = False
+HARDSUB(sudo) = False
+SUBSYNC = False
+COMPRESS_VIDEO = False
+TRIM_VIDEO = False
+WATERMARK_VIDEO = False
+REMOVE_VIDEO_STREAM = False
+EXTRACT_VIDEO_STREAM = False
+CONVERT(1080p,720p,480p) = False
