@@ -1,0 +1,74 @@
+# REQUIRED CONFIG
+BOT_TOKEN = ""
+OWNER_ID = 0
+TELEGRAM_API = 0
+TELEGRAM_HASH = ""
+
+
+# OPTIONAL CONFIG
+DEFAULT_LANG = "en"
+TG_PROXY = None
+USER_SESSION_STRING = ""
+CMD_SUFFIX = ""
+STATUS_LIMIT = 10
+DEFAULT_UPLOAD = "rc"
+STATUS_UPDATE_INTERVAL = 15
+EXCLUDED_EXTENSIONS = ""
+INCOMPLETE_TASK_NOTIFIER = False
+FFMPEG_CMDS = {}
+
+
+# LEECH 
+LEECH_SPLIT_SIZE = 0
+AS_DOCUMENT = False
+EQUAL_SPLITS = False
+MEDIA_GROUP = False
+USER_TRANSMISSION = True
+HYBRID_LEECH = True
+LEECH_PREFIX = ""
+LEECH_SUFFIX = ""
+LEECH_FONT = "B"
+LEECH_CAPTION = ""
+LEECH_REMNAME =""
+LEECH_THUMBNAIL = ""
+
+
+# BOT SETTINGS 
+BOT_PM = False
+SET_COMMANDS = True
+TIMEZONE = "Asia/Kolkata"
+
+# TELEGRAPH 
+AUTHOR_NAME = ""
+AUTHOR_URL = ""
+
+
+# QUEUEING SYSTEM 
+QUEUE_ALL = 0
+QUEUE_DOWNLOAD = 0
+QUEUE_UPLOAD = 0
+
+
+# TASK LIMITS 
+DIRECT_LIMIT = 30000
+MEGA_LIMIT = 10000
+GD_DL_LIMIT = 10000
+CLONE_LIMIT = 10000
+LEECH_LIMIT = 50000
+EXTRACT_LIMIT = 0
+ARCHIVE_LIMIT = 0
+STORAGE_LIMIT = 100000
+
+
+# VIDEO TOOLS 
+Merge_video_video = false
+Merge_video_audio = false
+Merge_video_subtitle = false
+Hardsub (sudo) = false
+SubSync = false
+Compress_video =false
+Trim_video = false
+Watermarke_video = false
+Remove_video_stream = false
+Extract_video_stream = false
+Convert (1080p, 720p, 540p, 480p, 360p) = false
